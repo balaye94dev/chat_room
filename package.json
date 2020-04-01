@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "description": "Realtime chat app with rooms",
   "main": "server.js",
+  "homepage": "https://balaye94dev.github.io/chat_rooom",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "deploy": "gh-pages -d public"
   },
   "author": "BA Abdoulaye",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "moment": "^2.24.0",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.3.0",
+    "gh-pages":"^2.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
